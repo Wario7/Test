@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\EnemySpawner.cs" />
      <Compile Include="Assets\Example Games\2D Scrolling Shooter\Scripts\Background.cs" />
      <Compile Include="Assets\Example Games\2D Scrolling Shooter\Scripts\Bullet.cs" />
      <Compile Include="Assets\Example Games\2D Scrolling Shooter\Scripts\DestroyArea.cs" />
@@ -79,6 +80,7 @@
      <Compile Include="Assets\NewBehaviourScript.cs" />
      <Compile Include="Assets\Scripts\BulletDestroy.cs" />
      <Compile Include="Assets\Scripts\BulletFiring.cs" />
+     <Compile Include="Assets\Scripts\EnemyPooler.cs" />
      <Compile Include="Assets\Scripts\NewObjectPoolerScript.cs" />
      <Compile Include="Assets\Scripts\leftBoundary.cs" />
      <Compile Include="Assets\Scripts\lowerBoudary.cs" />
