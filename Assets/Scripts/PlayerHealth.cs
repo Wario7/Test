@@ -1,7 +1,7 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
-
+	
 namespace CompleteProject
 {
 	public class PlayerHealth : MonoBehaviour
@@ -15,7 +15,7 @@ namespace CompleteProject
 		public Color flashColour = new Color(1f, 0f, 0f, 0.1f);     // The colour the damageImage is set to, to flash.
 		
 		
-		Animator anim;                                              // Reference to the Animator component.
+//		Animator anim;                                              // Reference to the Animator component.
 		AudioSource playerAudio;                                    // Reference to the AudioSource component.
 		playerController playerMovement;
 //		PlayerMovement playerMovement;                              // Reference to the player's movement.
@@ -27,7 +27,7 @@ namespace CompleteProject
 		void Awake ()
 		{
 			// Setting up the references.
-			anim = GetComponent <Animator> ();
+//			anim = GetComponent <Animator> ();
 			playerAudio = GetComponent <AudioSource> ();
 			playerMovement = GetComponent <playerController> ();
 			

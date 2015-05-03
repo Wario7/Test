@@ -84,13 +84,12 @@
      <Compile Include="Assets\Scripts\EnemySpawner.cs" />
      <Compile Include="Assets\Scripts\NewObjectPoolerScript.cs" />
      <Compile Include="Assets\Scripts\PlayerHealth.cs" />
+     <Compile Include="Assets\Scripts\Pop.cs" />
      <Compile Include="Assets\Scripts\leftBoundary.cs" />
      <Compile Include="Assets\Scripts\lowerBoudary.cs" />
      <Compile Include="Assets\Scripts\playerController.cs" />
-     <Compile Include="Assets\Scripts\pop.cs" />
      <Compile Include="Assets\Scripts\rightBoundary.cs" />
      <Compile Include="Assets\Scripts\upperBoundary.cs" />
-     <Compile Include="Assets\pop.cs" />
      <None Include="Assets\Example Games\Flappy Bird Style\_ReadMe.txt" />
      <None Include="Assets\CustomizableSword_Free\readme.txt" />
      <None Include="Assets\Fonts\LuckiestGuy\LICENSE.txt" />

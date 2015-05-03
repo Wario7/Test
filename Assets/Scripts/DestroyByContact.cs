@@ -12,13 +12,13 @@ public class DestroyByContact : MonoBehaviour
 
 	GameObject player;                          // Reference to the player GameObject.
 	PlayerHealth playerHealth;                  // Reference to the player's health.
-	AudioSource pop;
+//	AudioSource pop;
 	
 	void Start ()
 	{
 		player = GameObject.FindGameObjectWithTag ("Player");
 		playerHealth = player.GetComponent<PlayerHealth>();
-		pop = GetComponent<AudioSource> ();
+//		pop = GetComponent<AudioSource> ();
 	}
 	
 	void OnCollisionStay2D (Collision2D other)
