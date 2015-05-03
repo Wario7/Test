@@ -85,6 +85,7 @@
      <Compile Include="Assets\Scripts\NewObjectPoolerScript.cs" />
      <Compile Include="Assets\Scripts\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\Pop.cs" />
+     <Compile Include="Assets\Scripts\ScoreManager.cs" />
      <Compile Include="Assets\Scripts\leftBoundary.cs" />
      <Compile Include="Assets\Scripts\lowerBoudary.cs" />
      <Compile Include="Assets\Scripts\playerController.cs" />
