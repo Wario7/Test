@@ -4,13 +4,21 @@ namespace CompleteProject
 {
 	public class EnemySpawner : MonoBehaviour
 	{
+		public static EnemySpawner current;
+
 		//public PlayerHealth playerHealth;       // Reference to the player's heatlh.
 		public GameObject enemy;                // The enemy prefab to be spawned.
 		public float spawnTime = 1f;            // How long between each spawn.
 		public Transform[] spawnPoints;         // An array of the spawn points this enemy can spawn from.
 
 		private float halfSpawnPoints;
-		
+
+
+
+		void Awake(){
+			current = this;
+		}
+
 		void Start ()
 		{
 			// Call the Spawn function after a delay of the spawnTime and then continue to call after the same amount of time.
