@@ -21,9 +21,7 @@ namespace CompleteProject
 
 		void Start ()
 		{
-			// Call the Spawn function after a delay of the spawnTime and then continue to call after the same amount of time.
-			halfSpawnPoints = spawnPoints.Length / 2;
-			InvokeRepeating ("Spawn", spawnTime, spawnTime);
+			Init ();
 		}
 		
 		
@@ -52,6 +50,13 @@ namespace CompleteProject
 			obj.transform.rotation = spawnPoints[spawnPointIndex].rotation;
 
 			obj.SetActive(true);
+		}
+
+		public void Init(){
+			CancelInvoke ();
+			// Call the Spawn function after a delay of the spawnTime and then continue to call after the same amount of time.
+			halfSpawnPoints = spawnPoints.Length / 2;
+			InvokeRepeating ("Spawn", spawnTime, spawnTime);
 		}
 	}
 }

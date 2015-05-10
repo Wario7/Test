@@ -8,10 +8,12 @@ public class Difficulty : MonoBehaviour {
 	// Update is called once per frame
 	bool isAdded;
 	bool isFaster;
+	bool isFaster2;
 
 	void Start(){
 		Debug.Log ("size:" + EnemySpawner.current.spawnPoints.Length);
 		isAdded = false;
+		isFaster = false;
 		isFaster = false;
 	}
 
@@ -36,7 +38,15 @@ public class Difficulty : MonoBehaviour {
 
 		if (ScoreManager.score > 200 && !isFaster) {
 			isFaster = true;
+		
 			EnemySpawner.current.spawnTime = 0.3f;
+			EnemySpawner.current.Init();
+		}
+
+		if (ScoreManager.score > 500 && !isFaster2) {
+			isFaster2 = true;
+			EnemySpawner.current.spawnTime = 0.01f;
+			EnemySpawner.current.Init();
 		}
 
 	}

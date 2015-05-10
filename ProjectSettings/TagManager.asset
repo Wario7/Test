@@ -4,12 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Hat
-  - Bomb
-  - Bullet
   - Enemy
-  - Scenery
-  - Damager
+  - Boundary
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -19,14 +16,14 @@ TagManager:
   - UI
   - 
   - 
-  - Player
-  - Enemy
-  - Bullet (Player)
-  - Bullet (Enemy)
-  - DestoyArea
-  - Scenery
-  - Columns
-  - Background
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -44,27 +41,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: background
+    uniqueID: 1241822897
+    locked: 0
+  - name: weapon
+    uniqueID: 811678335
+    locked: 0
+  - name: Ground
+    uniqueID: 3252706785
+    locked: 0
+  - name: player
+    uniqueID: 1668344921
+    locked: 0
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Background
-    uniqueID: 1959699241
-    locked: 0
-  - name: Midground
-    uniqueID: 2737215443
-    locked: 0
-  - name: Foreground
-    uniqueID: 404910065
-    locked: 0
-  - name: Sparks
-    uniqueID: 1369744519
-    locked: 0
-  - name: Bullet
-    uniqueID: 3567414253
-    locked: 0
-  - name: Weapon
-    uniqueID: 982680657
-    locked: 0
-  - name: Player
-    uniqueID: 926194697
     locked: 0
