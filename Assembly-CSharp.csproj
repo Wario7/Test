@@ -108,6 +108,10 @@
      <Compile Include="Assets\Scripts\UnityMenu\ScrollDetailTexture.cs" />
      <Compile Include="Assets\Scripts\UnityMenu\ShowSliderValue.cs" />
      <Compile Include="Assets\Scripts\UnityMenu\TiltWindow.cs" />
+     <Compile Include="Assets\Scripts\genericModalWindow\BringToFront.cs" />
+     <Compile Include="Assets\Scripts\genericModalWindow\DisplayManager.cs" />
+     <Compile Include="Assets\Scripts\genericModalWindow\ModalPanel.cs" />
+     <Compile Include="Assets\Scripts\genericModalWindow\TestModalWindow.cs" />
      <None Include="Assets\Example Games\Flappy Bird Style\_ReadMe.txt" />
      <None Include="Assets\CustomizableSword_Free\readme.txt" />
      <None Include="Assets\Fonts\Jupiter\LICENSE.txt" />
