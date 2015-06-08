@@ -28,14 +28,19 @@ public class NewObjectPoolerScript : MonoBehaviour {
 	}
 
 	public GameObject GetPooledObject(){
-		for (int i = 0; i < pooledObjects.Count; i++) {
-			if(!pooledObjects[i].activeInHierarchy){
-				return pooledObjects[i];
-			}
+		int objPosition = Random.Range (0, pooledObjects.Count);
+//		for (int i = 0; i < pooledObjects.Count; i++) {
+//			if(!pooledObjects[i].activeInHierarchy){
+//				return pooledObjects[i];
+//			}
+//		}
+		if(!pooledObjects[objPosition].activeInHierarchy){
+			return pooledObjects[objPosition];
 		}
 
 		if (willGrow) {
 			GameObject obj = (GameObject) Instantiate(pooledObject);
+			obj.SetActive(false);
 			pooledObjects.Add(obj);
 			return obj;
 		}

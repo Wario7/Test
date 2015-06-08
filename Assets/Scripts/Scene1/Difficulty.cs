@@ -4,13 +4,16 @@ using CompleteProject;
 
 public class Difficulty : MonoBehaviour {
 
+	public GameObject bonus;
+	float randomPoint;
 	Transform [] previousTransforms;
-	// Update is called once per frame
 	bool isAdded;
 	bool isFaster;
 	bool isFaster2;
+	bool didSpawn;
 
 	void Start(){
+		randomPoint = Random.Range(-13f, 13f);
 		Debug.Log ("size:" + EnemySpawner.current.spawnPoints.Length);
 		isAdded = false;
 		isFaster = false;
@@ -19,6 +22,7 @@ public class Difficulty : MonoBehaviour {
 
 	void Update () {
 		if (ScoreManager.score > 100 && !isAdded) {
+			Instantiate(bonus, new Vector2(randomPoint, 12), Quaternion.identity);
 			isAdded = true;
 			previousTransforms = new Transform[EnemySpawner.current.spawnPoints.Length];
 			for(int i = 0; i < EnemySpawner.current.spawnPoints.Length; i++){
@@ -41,6 +45,11 @@ public class Difficulty : MonoBehaviour {
 		
 			EnemySpawner.current.spawnTime = 0.3f;
 			EnemySpawner.current.Init();
+		}
+
+		if(ScoreManager.score > 400 && !didSpawn){
+			didSpawn = true;
+			Instantiate(bonus, new Vector2(randomPoint, 12), Quaternion.identity);
 		}
 
 		if (ScoreManager.score > 500 && !isFaster2) {
