@@ -1,0 +1,528 @@
+fileFormatVersion: 2
+guid: acace37994bc3be4e8124fe9e8dd43ba
+timeCreated: 1434283720
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: masterHand_0
+    21300002: masterHand_1
+    21300004: masterHand_2
+    21300006: masterHand_3
+    21300008: masterHand_4
+    21300010: masterHand_5
+    21300012: masterHand_6
+    21300014: masterHand_7
+    21300016: masterHand_8
+    21300018: masterHand_9
+    21300020: masterHand_10
+    21300022: masterHand_11
+    21300024: masterHand_12
+    21300026: masterHand_13
+    21300028: masterHand_14
+    21300030: masterHand_15
+    21300032: masterHand_16
+    21300034: masterHand_17
+    21300036: masterHand_18
+    21300038: masterHand_19
+    21300040: masterHand_20
+    21300042: masterHand_21
+    21300044: masterHand_22
+    21300046: masterHand_23
+    21300048: masterHand_24
+    21300050: masterHand_25
+    21300052: masterHand_26
+    21300054: masterHand_27
+    21300056: masterHand_28
+    21300058: masterHand_29
+    21300060: masterHand_30
+    21300062: masterHand_31
+    21300064: masterHand_32
+    21300066: masterHand_33
+    21300068: masterHand_34
+    21300070: masterHand_35
+    21300072: masterHand_36
+    21300074: masterHand_37
+    21300076: masterHand_38
+    21300078: masterHand_39
+    21300080: masterHand_40
+    21300082: masterHand_41
+    21300084: masterHand_42
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: masterHand_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 470
+        width: 74
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 453
+        width: 72
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 459
+        width: 67
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_3
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 444
+        width: 33
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 421
+        width: 68
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_5
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 404
+        width: 66
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_6
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 411
+        width: 67
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_7
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 372
+        width: 31
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 379
+        width: 64
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_9
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 353
+        width: 63
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_10
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 373
+        width: 64
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 339
+        width: 63
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 311
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_13
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 314
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_14
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 310
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 273
+        width: 61
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_16
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 264
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_17
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 274
+        width: 60
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_18
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 256
+        width: 57
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_19
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 231
+        width: 57
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_20
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 211
+        width: 55
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_21
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 208
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_22
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 210
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_23
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 165
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_24
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 150
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_25
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 139
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_26
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 169
+        width: 53
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_27
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 119
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_28
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 105
+        width: 51
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_29
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 139
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_30
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 97
+        width: 30
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_31
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 45
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_32
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 108
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_33
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 65
+        width: 49
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_34
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 56
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_35
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 59
+        width: 18
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_36
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 6
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_37
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 11
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_38
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 10
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_39
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 28
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_40
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 2
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_41
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 6
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: masterHand_42
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 6
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

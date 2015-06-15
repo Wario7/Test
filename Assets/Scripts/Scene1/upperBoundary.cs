@@ -13,6 +13,9 @@ public class upperBoundary : MonoBehaviour {
 	}
 
 	void OnTriggerStay2D(Collider2D other) {
+		if (other == null || other.attachedRigidbody == null) {
+			return;
+		}
 		if (other.tag == "Player") {
 			playerController = other.attachedRigidbody.GetComponent<playerController>();
 			//disable jump until Player is outside the collider, so that the player does not eit the collider

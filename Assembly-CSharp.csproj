@@ -114,6 +114,7 @@
      <Compile Include="Assets\Scripts\genericModalWindow\DisplayManager.cs" />
      <Compile Include="Assets\Scripts\genericModalWindow\ModalPanel.cs" />
      <Compile Include="Assets\Scripts\genericModalWindow\TestModalWindow.cs" />
+     <Compile Include="Assets\StaticVariables.cs" />
      <None Include="Assets\Example Games\Flappy Bird Style\_ReadMe.txt" />
      <None Include="Assets\CustomizableSword_Free\readme.txt" />
      <None Include="Assets\Fonts\Jupiter\LICENSE.txt" />

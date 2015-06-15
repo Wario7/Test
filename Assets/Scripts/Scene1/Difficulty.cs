@@ -5,19 +5,25 @@ using CompleteProject;
 public class Difficulty : MonoBehaviour {
 
 	public GameObject bonus;
+	public GameObject camera;
+	public float smoothing = 1f;
+	public float height = 25f;
+	
 	float randomPoint;
 	Transform [] previousTransforms;
 	bool isAdded;
 	bool isFaster;
 	bool isFaster2;
 	bool didSpawn;
+	bool removedSpawner;
 
 	void Start(){
 		randomPoint = Random.Range(-13f, 13f);
-		Debug.Log ("size:" + EnemySpawner.current.spawnPoints.Length);
+
 		isAdded = false;
 		isFaster = false;
-		isFaster = false;
+		isFaster2 = false;
+		removedSpawner = false;
 	}
 
 	void Update () {
@@ -56,6 +62,26 @@ public class Difficulty : MonoBehaviour {
 			isFaster2 = true;
 			EnemySpawner.current.spawnTime = 0.01f;
 			EnemySpawner.current.Init();
+		}
+
+		if (camera.transform.position.y >= height - 0.5 && !removedSpawner) {
+			removedSpawner = true;
+			GameObject enemySpawner = GameObject.FindWithTag("EnemySpawner");
+			if(enemySpawner.active == true)
+				enemySpawner.SetActive(false);
+			Application.LoadLevel(3);
+		}
+
+	}
+
+	void FixedUpdate(){
+		if (ScoreManager.score > 1000 && camera.transform.position.y < height - 0.5) {
+			//			didCameraMove = true;
+			
+			Vector3 targetCamPos = new Vector3(camera.transform.position.x, height, camera.transform.position.z);
+			
+			// Smoothly interpolate between the camera's current position and it's target position.
+			camera.transform.position = Vector3.Lerp (camera.transform.position, targetCamPos, smoothing * Time.deltaTime);
 		}
 
 	}

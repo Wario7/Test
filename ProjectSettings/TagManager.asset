@@ -7,6 +7,8 @@ TagManager:
   - Enemy
   - Boundary
   - Ground
+  - Bomb
+  - EnemySpawner
   layers:
   - Default
   - TransparentFX

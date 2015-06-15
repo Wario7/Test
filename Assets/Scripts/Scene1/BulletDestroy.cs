@@ -6,8 +6,14 @@ public class BulletDestroy : MonoBehaviour {
 	public int bombPoisition;
 	public float facingRight = 1;
 
+	private float bombDuration;
+
+	void Awake(){
+		bombDuration = StaticVariables.getBombDuration(Application.loadedLevel);
+	}
+
 	void OnEnable(){
-		Invoke ("Destroy", 2f);
+		Invoke ("Destroy", bombDuration);
 		GetComponent<Rigidbody2D> ().velocity = new Vector2 ();
 
 		if (bombPoisition == 0) {
@@ -27,7 +33,6 @@ public class BulletDestroy : MonoBehaviour {
 		} else {
 			print ("here$$$$$");
 		}
-		print ("facingRight =" + facingRight);
 	}
 
 	void Destroy(){

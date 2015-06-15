@@ -1,0 +1,440 @@
+fileFormatVersion: 2
+guid: 634c5f71abdbab045a792ed219774416
+timeCreated: 1434236140
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Capture_0
+    21300002: Capture_1
+    21300004: Capture_2
+    21300006: Capture_3
+    21300008: Capture_4
+    21300010: Capture_5
+    21300012: Capture_6
+    21300014: Capture_7
+    21300016: Capture_8
+    21300018: Capture_9
+    21300020: Capture_10
+    21300022: Capture_11
+    21300024: Capture_12
+    21300026: Capture_13
+    21300028: Capture_14
+    21300030: Capture_15
+    21300032: Capture_16
+    21300034: Capture_17
+    21300036: Capture_18
+    21300038: Capture_19
+    21300040: Capture_20
+    21300042: Capture_21
+    21300044: Capture_22
+    21300046: Capture_23
+    21300048: Capture_24
+    21300050: Capture_25
+    21300052: Capture_26
+    21300054: Capture_27
+    21300056: Capture_28
+    21300058: Capture_29
+    21300060: Capture_30
+    21300062: Capture_31
+    21300064: Capture_32
+    21300066: Capture_33
+    21300068: Capture_34
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Capture_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 169
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Capture_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 167
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Capture_2
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 171
+        width: 67
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Capture_3
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 172
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Capture_4
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 171
+        width: 71
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Capture_5
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 170
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Capture_6
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 174
+        width: 63
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Capture_7
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 171
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Capture_8
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 164
+        width: 69
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Capture_9
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 164
+        width: 73
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Capture_10
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 172
+        width: 62
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Capture_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 79
+        width: 54
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Capture_12
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 76
+        width: 35
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Capture_13
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 83
+        width: 54
+        height: 67
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Capture_14
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 81
+        width: 58
+        height: 73
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Capture_15
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 79
+        width: 59
+        height: 72
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Capture_16
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 80
+        width: 42
+        height: 71
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Capture_17
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 78
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Capture_18
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 78
+        width: 41
+        height: 73
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Capture_19
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 79
+        width: 56
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Capture_20
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 78
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Capture_21
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 84
+        width: 63
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Capture_22
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 84
+        width: 55
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Capture_23
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 86
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Capture_24
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 84
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Capture_25
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 82
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Capture_26
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 80
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Capture_27
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 81
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Capture_28
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2
+        width: 66
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Capture_29
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 10
+        width: 70
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Capture_30
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 9
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Capture_31
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 12
+        width: 64
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Capture_32
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 10
+        width: 79
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Capture_33
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 7
+        width: 71
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Capture_34
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 11
+        width: 67
+        height: 53
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
