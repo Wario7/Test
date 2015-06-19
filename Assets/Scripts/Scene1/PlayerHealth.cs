@@ -18,6 +18,7 @@ namespace CompleteProject
 //		Animator anim;                                              // Reference to the Animator component.
 		AudioSource playerAudio;                                    // Reference to the AudioSource component.
 		playerController playerMovement;
+		Animator anim;
 //		PlayerMovement playerMovement;                              // Reference to the player's movement.
 //		PlayerShooting playerShooting;                              // Reference to the PlayerShooting script.
 		bool isDead;                                                // Whether the player is dead.
@@ -27,7 +28,7 @@ namespace CompleteProject
 		void Awake ()
 		{
 			// Setting up the references.
-//			anim = GetComponent <Animator> ();
+			anim = GetComponent <Animator> ();
 			playerAudio = GetComponent <AudioSource> ();
 			playerMovement = GetComponent <playerController> ();
 			
@@ -58,6 +59,7 @@ namespace CompleteProject
 		
 		public void TakeDamage (int amount)
 		{
+			StartCoroutine (makeInvulnrable (1.25f));
 			// Set the damaged flag so the screen will flash.
 			damaged = true;
 			
@@ -110,6 +112,11 @@ namespace CompleteProject
 		void Restart(){
 //			gameObject.SetActive (false);
 			RestartLevel ();
+		}
+
+		IEnumerator makeInvulnrable(float time){
+
+			yield return new WaitForSeconds(time);
 		}
 
 	}

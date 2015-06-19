@@ -3185,9 +3185,12 @@ GameObject:
   - 4: {fileID: 1167392895}
   - 212: {fileID: 1167392894}
   - 95: {fileID: 1167392893}
+  - 60: {fileID: 1167392896}
+  - 114: {fileID: 1167392897}
+  - 114: {fileID: 1167392898}
   m_Layer: 0
   m_Name: masterHand_7
-  m_TagString: Untagged
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3247,6 +3250,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
+--- !u!60 &1167392896
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1167392892}
+  m_Enabled: 0
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+    m_Paths:
+    - - {x: -.189999998, y: .200000003}
+      - {x: -.310000002, y: .109999999}
+      - {x: -.310000002, y: -.140000001}
+      - {x: -.300000012, y: -.200000003}
+      - {x: .25999999, y: -.200000003}
+      - {x: .310000002, y: -.140000001}
+      - {x: .310000002, y: .0799999982}
+      - {x: .109999999, y: .200000003}
+--- !u!114 &1167392897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1167392892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfa4a83fa961fd140ad4e1fa89fb211c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aImages:
+  - {fileID: 21300014, guid: acace37994bc3be4e8124fe9e8dd43ba, type: 3}
+  - {fileID: 21300066, guid: acace37994bc3be4e8124fe9e8dd43ba, type: 3}
+  - {fileID: 21300060, guid: acace37994bc3be4e8124fe9e8dd43ba, type: 3}
+  - {fileID: 21300052, guid: acace37994bc3be4e8124fe9e8dd43ba, type: 3}
+  - {fileID: 21300034, guid: acace37994bc3be4e8124fe9e8dd43ba, type: 3}
+  - {fileID: 21300024, guid: acace37994bc3be4e8124fe9e8dd43ba, type: 3}
+--- !u!114 &1167392898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1167392892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67e1ba4555cbd474586839930a71d0eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackDamage: 70
 --- !u!1 &1218406428
 GameObject:
   m_ObjectHideFlags: 0
@@ -3344,6 +3398,7 @@ GameObject:
   - 4: {fileID: 1302099219}
   - 212: {fileID: 1302099218}
   - 95: {fileID: 1302099217}
+  - 114: {fileID: 1302099220}
   m_Layer: 0
   m_Name: masterHand_3
   m_TagString: Untagged
@@ -3406,6 +3461,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
+--- !u!114 &1302099220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1302099216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9670d9eab5d7ae64eba46d041418eb7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationName: masterHandEntrance
 --- !u!1 &1420572263
 GameObject:
   m_ObjectHideFlags: 0

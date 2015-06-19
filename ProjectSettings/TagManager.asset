@@ -9,6 +9,7 @@ TagManager:
   - Ground
   - Bomb
   - EnemySpawner
+  - Boss
   layers:
   - Default
   - TransparentFX

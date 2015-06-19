@@ -77,8 +77,11 @@
      <Compile Include="Assets\Example Games\Hat Trick - The Catch Game\Scripts\HT_SetParticleSortingLayer.cs" />
      <Compile Include="Assets\Example Games\Hat Trick - The Catch Game\Scripts\HT_StartGame.cs" />
      <Compile Include="Assets\Scripts\Bonus.cs" />
+     <Compile Include="Assets\Scripts\Boss\BossDamage.cs" />
+     <Compile Include="Assets\Scripts\Boss\BossEnabler.cs" />
      <Compile Include="Assets\Scripts\ChangeMusic.cs" />
      <Compile Include="Assets\Scripts\ClickToLoadAsync.cs" />
+     <Compile Include="Assets\Scripts\ColliderChanger.cs" />
      <Compile Include="Assets\Scripts\DontDestroy.cs" />
      <Compile Include="Assets\Scripts\LoadAdditive.cs" />
      <Compile Include="Assets\Scripts\LoadOnClick.cs" />
@@ -100,6 +103,7 @@
      <Compile Include="Assets\Scripts\Scene1\playerController.cs" />
      <Compile Include="Assets\Scripts\Scene1\rightBoundary.cs" />
      <Compile Include="Assets\Scripts\Scene1\upperBoundary.cs" />
+     <Compile Include="Assets\Scripts\StaticVariables.cs" />
      <Compile Include="Assets\Scripts\UnityMenu\ApplicationManager.cs" />
      <Compile Include="Assets\Scripts\UnityMenu\ChangeColor.cs" />
      <Compile Include="Assets\Scripts\UnityMenu\DragMe.cs" />
@@ -114,7 +118,6 @@
      <Compile Include="Assets\Scripts\genericModalWindow\DisplayManager.cs" />
      <Compile Include="Assets\Scripts\genericModalWindow\ModalPanel.cs" />
      <Compile Include="Assets\Scripts\genericModalWindow\TestModalWindow.cs" />
-     <Compile Include="Assets\StaticVariables.cs" />
      <None Include="Assets\Example Games\Flappy Bird Style\_ReadMe.txt" />
      <None Include="Assets\CustomizableSword_Free\readme.txt" />
      <None Include="Assets\Fonts\Jupiter\LICENSE.txt" />
