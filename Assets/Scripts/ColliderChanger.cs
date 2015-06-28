@@ -116,4 +116,8 @@ public class ColliderChanger : MonoBehaviour {
 		// enable or disable the current collider as requested
 		olFrameColliders[curFrame].enabled = trueOrFalse;
 	}
+
+	public void setSpriteCount(int spriteCount){
+		this.spriteCount = spriteCount;
+	}
 }

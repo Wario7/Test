@@ -3188,6 +3188,7 @@ GameObject:
   - 60: {fileID: 1167392896}
   - 114: {fileID: 1167392897}
   - 114: {fileID: 1167392898}
+  - 114: {fileID: 1167392899}
   m_Layer: 0
   m_Name: masterHand_7
   m_TagString: Boss
@@ -3263,14 +3264,13 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: -.189999998, y: .200000003}
-      - {x: -.310000002, y: .109999999}
-      - {x: -.310000002, y: -.140000001}
-      - {x: -.300000012, y: -.200000003}
-      - {x: .25999999, y: -.200000003}
-      - {x: .310000002, y: -.140000001}
-      - {x: .310000002, y: .0799999982}
-      - {x: .109999999, y: .200000003}
+    - - {x: -.264999986, y: .219999999}
+      - {x: -.264999986, y: -.159999996}
+      - {x: -.224999994, y: -.219999999}
+      - {x: .174999997, y: -.219999999}
+      - {x: .264999986, y: -.180000007}
+      - {x: .264999986, y: .150000006}
+      - {x: .204999998, y: .219999999}
 --- !u!114 &1167392897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3289,6 +3289,12 @@ MonoBehaviour:
   - {fileID: 21300052, guid: acace37994bc3be4e8124fe9e8dd43ba, type: 3}
   - {fileID: 21300034, guid: acace37994bc3be4e8124fe9e8dd43ba, type: 3}
   - {fileID: 21300024, guid: acace37994bc3be4e8124fe9e8dd43ba, type: 3}
+  - {fileID: 21300018, guid: acace37994bc3be4e8124fe9e8dd43ba, type: 3}
+  - {fileID: 21300008, guid: acace37994bc3be4e8124fe9e8dd43ba, type: 3}
+  - {fileID: 21300032, guid: acace37994bc3be4e8124fe9e8dd43ba, type: 3}
+  - {fileID: 21300056, guid: acace37994bc3be4e8124fe9e8dd43ba, type: 3}
+  - {fileID: 21300054, guid: acace37994bc3be4e8124fe9e8dd43ba, type: 3}
+  - {fileID: 21300044, guid: acace37994bc3be4e8124fe9e8dd43ba, type: 3}
 --- !u!114 &1167392898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3301,6 +3307,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackDamage: 70
+--- !u!114 &1167392899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1167392892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f88062dc1513554992f1d221051750c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1218406428
 GameObject:
   m_ObjectHideFlags: 0
